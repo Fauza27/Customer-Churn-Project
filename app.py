@@ -677,7 +677,7 @@ if analysis_type == 'Churn Analysis':
     - ROC AUC: 0.6825
     - Balanced Accuracy: 0.6818
     """)
-    image_decision_tree = "img\decision tree.png"
+    image_decision_tree = "decision tree.png"
     st.image(image_decision_tree, caption="Confusion Matrix - Decision Tree")
 
     # Contoh Hasil Evaluasi untuk Random Forest
@@ -690,7 +690,7 @@ if analysis_type == 'Churn Analysis':
     - ROC AUC: 0.8381
     - Balanced Accuracy: 0.7364
     """)
-    image_random_forest = "img\Random forest.png"
+    image_random_forest = "Random forest.png"
     st.image(image_random_forest, caption="Confusion Matrix - Random Forest")
 
     # Contoh Hasil Evaluasi untuk Gradient Boosting
@@ -703,7 +703,7 @@ if analysis_type == 'Churn Analysis':
     - ROC AUC: 0.8581
     - Balanced Accuracy: 0.7686
     """)
-    image_gradient_boosting = "img\gradient boosting.png"
+    image_gradient_boosting = "gradient boosting.png"
     st.image(image_gradient_boosting, caption="Confusion Matrix - Gradient Boosting")
 
     # Contoh Hasil Evaluasi untuk SVM
@@ -716,7 +716,7 @@ if analysis_type == 'Churn Analysis':
     - ROC AUC: 0.8473
     - Balanced Accuracy: 0.7676
     """)
-    image_svm = "img\svm.png"
+    image_svm = "svm.png"
     st.image(image_svm, caption="Confusion Matrix - SVM")
 
     st.header("Hyperparamter Tunning")
