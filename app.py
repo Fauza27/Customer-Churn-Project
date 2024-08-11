@@ -664,7 +664,7 @@ if analysis_type == 'Churn Analysis':
     - Balanced Accuracy: 0.7762
     """)
     # Mengganti ini dengan plot confusion matrix Anda
-    image_logistic = "\img\logistic.png"
+    image_logistic = "logistic.png"
     st.image(image_logistic, caption="Confusion Matrix - Logistic Regression")
 
     # Contoh Hasil Evaluasi untuk Decision Tree
